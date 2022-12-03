@@ -1,2 +1,2 @@
 web: python -m http.server $PORT
-worker: bash ShiviX
+worker: python3 -m ShiviXMusic
