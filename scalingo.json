@@ -1,0 +1,35 @@
+{
+    "name": "sʜɪᴠᴀɴʏᴀ ᴍᴜsɪᴄ ʙᴏᴛ",
+    "description": "𝙼𝚄𝚂𝙸𝙲 𝙰𝙻𝙻𝙾𝚆 𝚈𝙾𝚄 𝚃𝙾 𝚂𝚃𝚁𝙴𝙰𝙼 𝙼𝚄𝚂𝙸𝙲 𝚃𝚁𝙾𝚄𝙶𝙷𝚃 𝚃𝙷𝙴 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝚅𝙸𝙳𝙴𝙾 𝙲𝙷𝙰𝚃.",
+    "keywords": ["ShiviX", "ShiviX", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "tg-py-calls"],
+    "repository": "https://github.com/team-katil/ShiviXMusic",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION": {
+            "description": "𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼-𝚅1 𝚂𝚃𝚁𝙸𝙽𝙶 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙾𝙵 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙰𝙲𝙲𝙾𝚄𝙽𝚃",
+            "required": true,
+            "value": ""
+        },
+        "LOGGER_ID": {
+            "description": "𝙲𝙷𝙰𝚃 𝙸𝙳 𝙾𝙵 𝙰 𝙶𝚁𝙾𝚄𝙿 𝚆𝙷𝙴𝚁𝙴 𝚈𝙾𝚄'𝙻𝙻 𝙶𝙴𝚃 𝚃𝙾 𝙺𝙽𝙾𝚆 𝚃𝙷𝙰𝚃 𝚈𝙾𝚄𝚁 𝙱𝙾𝚃 𝙶𝙾𝚃 𝚂𝚃𝙰𝚁𝚃𝙴𝙳, 𝚎𝚡:- -1001750682671",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "𝚈𝙾𝚄𝚁 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙸'𝙳",,
+            "required": false,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "𝙰 𝙼𝙾𝙽𝙶𝙾𝙳𝙱 𝙲𝙻𝙾𝚄𝙳 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝚄𝚁𝙻 𝙵𝚁𝙾𝙼 cloud.mongodb.com",
+            "required": false,
+            "value": "mongodb+srv://SHIVIXMONGO:SHIVIXMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"
+        },
+        "BOT_TOKEN": {
+            "description": "𝙵𝙸𝙻𝙻 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙱𝙾𝚃 𝚃𝙾𝙺𝙴𝙽 𝙶𝙴𝚃 𝙵𝚁𝙾𝙼 @BotFather 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
