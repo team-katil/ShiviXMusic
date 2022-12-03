@@ -1,0 +1,53 @@
+{
+  "name": "sʜɪᴠᴀɴʏᴀˣᴍᴜsɪᴄ",
+  "logo": "https://telegra.ph/file/40859da6426f2a2799867.jpg",
+  "description": "𝙰 𝙵𝙰𝚂𝚃 & 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝚅𝙲 𝙿𝙻𝙰𝚈𝙴𝚁 𝙱𝙾𝚃 𝚃𝙾 𝙿𝙻𝙰𝙷 𝚂𝙾𝙽𝙶 𝙸𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝚅𝙸𝙳𝙴𝙾 𝙲𝙷𝙰𝚃 𝚆𝚁𝙸𝚃𝚃𝙴𝙽 𝙸𝙽 𝙿𝚈𝚃𝙷𝙾𝙼 𝚆𝙸𝚃𝙷 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙾𝙵 Pyrogram & PyTg-Calls.",
+  "keywords": ["music", "voicechat", "python", "telegram-bot", "pyrogram", "telegram", "ShiviX"],
+  "repository": "https://github.com/team-katil/ShiviXMusic",
+  "stack": "container",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "𝙰 𝙱𝙾𝚃 𝚃𝙾𝙺𝙴𝙽 𝙵𝚁𝙾𝙼 @Botfather",
+      "value": "",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "𝙲𝙷𝙰𝚃 𝙸𝙳 𝙾𝙵 𝙰 𝙶𝚁𝙾𝚄𝙿 𝚆𝙷𝙴𝚁𝙴 𝚈𝙾𝚄'𝙻𝙻 𝙶𝙴𝚃 𝚃𝙾 𝙺𝙽𝙾𝚆 𝚃𝙷𝙰𝚃 𝚈𝙾𝚄𝚁 𝙱𝙾𝚃 𝚂𝚃𝙰𝚁𝚃𝙴𝙳  -1001750682671 .",
+      "required": true,
+      "value": "-100........"
+    },
+    "OWNER_ID": {
+      "description": "𝚈𝙾𝚄𝚁 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙸𝙳",
+      "required": true,
+      "value": "........"
+    },
+    "MONGO_DB_URI": {
+      "description": "𝙰 𝙼𝙾𝙽𝙶𝙾𝙳𝙱 𝙲𝙻𝙾𝚄𝙳 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝚄𝚁𝙻 𝙵𝚁𝙾𝙼 cloud.mongodb.com",
+      "value": "mongodb+srv://SHIVIXMONGO:SHIVIXMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼- 𝚅1 𝚂𝚃𝚁𝙸𝙽𝙶 𝚂𝙴𝚂𝚂𝙸𝙾𝙽",
+      "required": true,
+      "value": ""
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
